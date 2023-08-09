@@ -4,6 +4,7 @@
             <NavBar></NavBar>
         </header>
         <main class="prova flex-grow-1">
+            <slot />
         </main>
         <footer class="background">
             <Footer></Footer>
@@ -28,6 +29,6 @@ export default {
 }
 
 .background {
-    background-color: gray;
+    background-color: white;
 }
 </style>

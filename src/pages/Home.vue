@@ -1,17 +1,20 @@
 <template>
     <Structure>
-        <Jumbotron></Jumbotron>
+        <Hero></Hero>
+        <SectionCategory></SectionCategory>
     </Structure>
 </template>
 
 <script>
 import Structure from '../layouts/Structure.vue';
-import Jumbotron from '../components/Jumbotron.vue';
+import Hero from '../components/Hero.vue';
+import SectionCategory from '../components/SectionCategory.vue';
 
 export default {
     components: {
         Structure,
-        Jumbotron
+        Hero,
+        SectionCategory,
     },
 }
 </script>
