@@ -1,5 +1,5 @@
 <template>
-    <h1>FOOTER</h1>
+    <h1>JUMBOTRON</h1>
 </template>
 
 <script>

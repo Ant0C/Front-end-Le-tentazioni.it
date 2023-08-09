@@ -1,9 +1,13 @@
 <template>
-    <div class="d-flex flex-column min-vh-100">
-        <NavBar></NavBar>
+    <div class="background d-flex flex-column min-vh-100">
+        <header>
+            <NavBar></NavBar>
+        </header>
         <main class="prova flex-grow-1">
         </main>
-        <Footer></Footer>
+        <footer class="background">
+            <Footer></Footer>
+        </footer>
     </div>
 </template>
 
@@ -21,5 +25,9 @@ export default {
 <style lang="scss" scoped>
 .prova {
     min-height: 0;
+}
+
+.background {
+    background-color: gray;
 }
 </style>

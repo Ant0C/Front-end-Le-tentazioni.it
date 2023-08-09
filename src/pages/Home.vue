@@ -1,14 +1,17 @@
 <template>
     <Structure>
+        <Jumbotron></Jumbotron>
     </Structure>
 </template>
 
 <script>
 import Structure from '../layouts/Structure.vue';
+import Jumbotron from '../components/Jumbotron.vue';
 
 export default {
     components: {
         Structure,
+        Jumbotron
     },
 }
 </script>
